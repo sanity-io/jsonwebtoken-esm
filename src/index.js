@@ -1,0 +1,7 @@
+export { default as decode } from './decode'
+export { default as verify } from './verify'
+export { default as sign } from './sign'
+export { default as JsonWebTokenError } from './lib/JsonWebTokenError'
+export { default as NotBeforeError } from './lib/NotBeforeError'
+export { default as TokenExpiredError } from './lib/TokenExpiredError'
+export { version } from 'jsonwebtoken/package.json'
