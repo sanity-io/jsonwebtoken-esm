@@ -1,1 +1,1 @@
-export * from 'jsonwebtoken/lib/psSupported'
+export { default } from 'jsonwebtoken/lib/psSupported'

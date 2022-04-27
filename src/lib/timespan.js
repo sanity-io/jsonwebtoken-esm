@@ -1,1 +1,1 @@
-export * from 'jsonwebtoken/lib/timespan'
+export { default } from 'jsonwebtoken/lib/timespan'

@@ -1,1 +1,1 @@
-export * from 'jsonwebtoken/sign'
+export { default } from 'jsonwebtoken/sign'

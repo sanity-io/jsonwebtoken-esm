@@ -18,15 +18,27 @@
   "sideEffects": false,
   "type": "module",
   "exports": {
-    ".": "./dist/index.js"
+    ".": "./dist/index.js",
+    "./decode": "./dist/decode.js",
+    "./verify": "./dist/verify.js",
+    "./sign": "./dist/sign.js",
+    "./lib/JsonWebTokenError": "./dist/lib/JsonWebTokenError.js",
+    "./lib/NotBeforeError": "./dist/lib/NotBeforeError.js",
+    "./lib/psSupported": "./dist/lib/psSupported.js",
+    "./lib/timespan": "./dist/lib/timespan.js",
+    "./lib/TokenExpiredError": "./dist/lib/TokenExpiredError.js"
   },
   "module": "./dist/index.js",
   "types": "./types.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "types.d.ts"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier . --write",
+    "prepack": "node esbuild.config",
+    "preprepack": "rimraf dist",
+    "test": "package-check && prettier . --check"
   },
   "prettier": {
     "semi": false,
@@ -35,10 +47,13 @@
   "devDependencies": {
     "@esbuild-plugins/node-globals-polyfill": "^0.1.1",
     "@esbuild-plugins/node-modules-polyfill": "^0.1.4",
+    "@skypack/package-check": "^0.2.2",
+    "crypto-browserify": "^3.12.0",
     "esbuild": "^0.14.38",
     "esbuild-plugin-alias": "^0.2.1",
     "jsonwebtoken": "^8.5.1",
     "prettier": "^2.6.2",
-    "prettier-plugin-packagejson": "^2.2.17"
+    "prettier-plugin-packagejson": "^2.2.17",
+    "rimraf": "^3.0.2"
   }
 }

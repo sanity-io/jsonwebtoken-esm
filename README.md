@@ -10,14 +10,11 @@ $ npm install jsonwebtoken-esm
 
 ## Usage
 
-Same as [before](https://github.com/auth0/node-jsonwebtoken/blob/master/README.md#usage), but now with ESM imports:
+Same as [before](https://github.com/auth0/node-jsonwebtoken/blob/master/README.md#usage), but now with ESM imports.
+To see which version of `jsonwebtoken` is used in the bundle:
 
-index.js
-decode.js
-sign.js
-verify.js
-lib/JsonWebTokenError.js
-lib/NotBeforeError.js
-lib/TokenExpiredError.js
-lib/psSupported.js
-lib/timespan.js
+```js
+import { version } from 'jsonwebtoken-esm'
+
+console.log(version) // "8.5.1"
+```

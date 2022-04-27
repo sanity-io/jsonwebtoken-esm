@@ -1,1 +1,1 @@
-export * from 'jsonwebtoken/decode'
+export { default } from 'jsonwebtoken/decode'

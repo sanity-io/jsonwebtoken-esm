@@ -1,1 +1,1 @@
-export * from 'jsonwebtoken/lib/JsonWebTokenError'
+export { default } from 'jsonwebtoken/lib/JsonWebTokenError'

@@ -1,1 +1,1 @@
-export * from 'jsonwebtoken/lib/TokenExpiredError'
+export { default } from 'jsonwebtoken/lib/TokenExpiredError'

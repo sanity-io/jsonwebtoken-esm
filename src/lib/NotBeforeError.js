@@ -1,1 +1,1 @@
-export * from 'jsonwebtoken/lib/NotBeforeError'
+export { default } from 'jsonwebtoken/lib/NotBeforeError'
