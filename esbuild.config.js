@@ -25,6 +25,7 @@ esbuild
     outdir: 'dist',
     sourcemap: true,
     splitting: true,
+    minify: true,
     plugins: [
       alias({ crypto: require.resolve('crypto-browserify') }),
       NodeModulesPolyfillPlugin(),
