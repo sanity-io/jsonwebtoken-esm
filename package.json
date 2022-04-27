@@ -1,6 +1,6 @@
 {
   "name": "jsonwebtoken-esm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A wrapper that rebundles [`jsonwebtoken`](https://www.npmjs.com/package/jsonwebtoken) into ESM, so you can use it in your `vite`, `skypack`, or wherever you need ESM.",
   "keywords": [
     "jwt"
@@ -29,10 +29,23 @@
     "./lib/TokenExpiredError": "./dist/lib/TokenExpiredError.js"
   },
   "module": "./dist/index.js",
-  "types": "./types.d.ts",
+  "types": "./types/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "decode": [
+        "./types/decode.d.ts"
+      ],
+      "sign": [
+        "./types/sign.d.ts"
+      ],
+      "verify": [
+        "./types/verify.d.ts"
+      ]
+    }
+  },
   "files": [
     "dist",
-    "types.d.ts"
+    "types"
   ],
   "scripts": {
     "format": "prettier . --write",
