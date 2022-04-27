@@ -38,6 +38,7 @@
     "format": "prettier . --write",
     "prepack": "node esbuild.config",
     "preprepack": "rimraf dist",
+    "prepublishOnly": "npm test",
     "test": "package-check && prettier . --check"
   },
   "prettier": {
