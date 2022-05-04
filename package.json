@@ -14,7 +14,7 @@
     "url": "git+https://github.com/stipsan/jsonwebtoken-esm.git"
   },
   "license": "MIT",
-  "author": "stipsan",
+  "author": "Cody Olsen <stipsan@gmail.com>",
   "sideEffects": false,
   "type": "module",
   "exports": {
