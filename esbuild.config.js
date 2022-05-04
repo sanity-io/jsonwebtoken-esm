@@ -19,6 +19,7 @@ for (const path of Object.values(pkgExports)) {
 
 esbuild
   .build({
+    target: 'es2018',
     entryPoints: [...entryPoints],
     bundle: true,
     platform: 'browser',
