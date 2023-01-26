@@ -48,9 +48,9 @@
     "types"
   ],
   "scripts": {
-    "format": "prettier . --write",
-    "build": "node esbuild.config",
     "prebuild": "npx rimraf dist",
+    "build": "node esbuild.config",
+    "format": "prettier . --write",
     "prepublishOnly": "npm run build",
     "test": "package-check && prettier . --check"
   },
