@@ -6,16 +6,15 @@
     "jwt",
     "jsonwebtoken"
   ],
-  "homepage": "https://github.com/stipsan/jsonwebtoken-esm#readme",
   "bugs": {
-    "url": "https://github.com/stipsan/jsonwebtoken-esm/issues"
+    "url": "https://github.com/sanity-io/jsonwebtoken-esm/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stipsan/jsonwebtoken-esm.git"
+    "url": "git+https://github.com/sanity-io/jsonwebtoken-esm.git"
   },
   "license": "MIT",
-  "author": "Cody Olsen <stipsan@gmail.com>",
+  "author": "Sanity.io <hello@sanity.io>",
   "sideEffects": false,
   "type": "module",
   "exports": {
@@ -62,13 +61,15 @@
   "devDependencies": {
     "@esbuild-plugins/node-globals-polyfill": "^0.1.1",
     "@esbuild-plugins/node-modules-polyfill": "^0.1.4",
+    "@sanity/semantic-release-preset": "^4.0.0",
     "@skypack/package-check": "^0.2.2",
     "crypto-browserify": "^3.12.0",
     "esbuild": "^0.14.38",
     "esbuild-plugin-alias": "^0.2.1",
     "jsonwebtoken": "^8.5.1",
+    "ls-engines": "^0.9.0",
     "prettier": "^2.6.2",
     "prettier-plugin-packagejson": "^2.2.17",
-    "rimraf": "^3.0.2"
+    "rimraf": "^4.1.2"
   }
 }

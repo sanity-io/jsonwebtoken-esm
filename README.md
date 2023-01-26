@@ -1,6 +1,6 @@
 # jsonwebtoken-esm
 
-A wrapper that rebundles [`jsonwebtoken`](https://www.npmjs.com/package/jsonwebtoken) into ESM, so you can use it in your `vite`, `skypack`, or wherever you need ESM.
+A wrapper that rebundles [`jsonwebtoken`](https://www.npmjs.com/package/jsonwebtoken) into ESM, so you can use it in your `vite`, `esm.sh`, or wherever you need ESM.
 
 ## Install
 
