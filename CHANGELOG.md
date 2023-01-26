@@ -5,6 +5,16 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.0](https://github.com/sanity-io/jsonwebtoken-esm/compare/v1.0.5...v2.0.0) (2023-01-26)
+
+### ⚠ BREAKING CHANGES
+
+- **deps:** https://github.com/auth0/node-jsonwebtoken/wiki/Migration-Notes:-v8-to-v9
+
+### Bug Fixes
+
+- **deps:** update dependency jsonwebtoken to v9 ([#8](https://github.com/sanity-io/jsonwebtoken-esm/issues/8)) ([52daca8](https://github.com/sanity-io/jsonwebtoken-esm/commit/52daca82b02fb5f03d88bd51db56d9a0da06956d)), closes [#3](https://github.com/sanity-io/jsonwebtoken-esm/issues/3)
+
 ## [1.0.5](https://github.com/sanity-io/jsonwebtoken-esm/compare/v1.0.4...v1.0.5) (2023-01-26)
 
 ### Bug Fixes
