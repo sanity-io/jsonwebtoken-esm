@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/sanity-io/jsonwebtoken-esm/compare/v2.0.0...v2.0.1) (2023-02-02)
+
+### Bug Fixes
+
+- **deps:** update devdependencies (non-major) ([#10](https://github.com/sanity-io/jsonwebtoken-esm/issues/10)) ([7331024](https://github.com/sanity-io/jsonwebtoken-esm/commit/7331024a743ab88a5aef9e7eb861bf973419bc33))
+
 ## [2.0.0](https://github.com/sanity-io/jsonwebtoken-esm/compare/v1.0.5...v2.0.0) (2023-01-26)
 
 ### ⚠ BREAKING CHANGES
