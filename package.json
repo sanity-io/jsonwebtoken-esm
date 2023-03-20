@@ -68,7 +68,7 @@
     "esbuild-plugin-alias": "^0.2.1",
     "jsonwebtoken": "^9.0.0",
     "ls-engines": "^0.9.0",
-    "prettier": "^2.8.3",
+    "prettier": "^2.8.5",
     "prettier-plugin-packagejson": "^2.4.3",
     "rimraf": "^4.3.0"
   },
